@@ -13,7 +13,7 @@ dotenv.config({ path: "./config.env" });
 
 app.use(
   cors({
-    origin: "https://dwija-bake-studio.store",
+    origin: "*",
     credentials: true,
   })
 );
